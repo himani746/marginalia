@@ -1,0 +1,11 @@
+# Forces Streamlit's own widgets (upload button, chat box, inputs) to the light theme,
+# even when your browser or Windows is set to dark mode.
+[theme]
+base = "light"
+backgroundColor = "#F7F5FF"
+secondaryBackgroundColor = "#EFEAFA"
+textColor = "#241C40"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

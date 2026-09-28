@@ -1,0 +1,22 @@
+# Marginalia: Streamlit RAG app. Python 3.10 or newer.
+# Lower bounds only, so pip can pick a mutually compatible set of LangChain packages.
+
+streamlit>=1.45
+
+# LangChain
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-openai>=0.3
+langchain-google-genai>=2.1
+
+# Vector store
+faiss-cpu>=1.8
+numpy>=1.26
+
+# Document parsing
+pdfplumber>=0.11
+python-docx>=1.1
+
+# Environment variables from .env
+python-dotenv>=1.0
